@@ -34,7 +34,7 @@ public class SecurityConfig {
         UserDetails user =
                 User.withDefaultPasswordEncoder()
                         .username("user")
-                        .password("passwordd")
+                        .password("password")
                         .roles("USER")
                         .build();
 
